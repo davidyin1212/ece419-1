@@ -1,0 +1,3 @@
+BrokerPacket class was modified to include two new errors: ERROR_SERVER_NOT_REGISTERED, ERROR_SERVER_ALREADY_REGISTERED
+
+Brokers must be terminated gracefully, by pressing quit, to ensure proper flushing to files nasdaq and tse. If broker does NOT terminate gracefully (^C) then nasdaq and tse files may be empty.

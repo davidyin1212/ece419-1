@@ -1,0 +1,7 @@
+run the naming server:
+
+java NamingServer [portnumber]
+
+run the clients:
+
+Mazewar [namingservername] [namingserverport] [yourownport]

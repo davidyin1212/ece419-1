@@ -1,0 +1,4 @@
+Firstly, untar the folder, then enter it, and then "make clean", and then "make".
+To run the server, type "sh server.sh"
+To run a client on the same machine as the server, type in "sh run.sh"
+To run a client on a different machine that the server, type in "java Mazewar IP_ADDRESS_OF_COMPUTER-THAT_HAS_SERVER-ON_IT 1234"

@@ -1,0 +1,24 @@
+compile the code:
+make
+
+to run server:
+sh fileserver.sh //primary
+sh fileserver2.sh //secondary
+fileServer [zoohost]:[zooport] [fileserverport]
+
+
+to run client:
+sh client.sh
+Client [zoohost] [zooport]
+
+client commands:
+{{job | status} hash } | quit
+
+to run tracker:
+sh tracker.sh //primary
+sh tracker2.sh //secondary
+Tracker [zoohost] [zooport] [trackerport]
+
+to run worker:
+sh worker.sh
+worker [zoohost]:[zooport]
